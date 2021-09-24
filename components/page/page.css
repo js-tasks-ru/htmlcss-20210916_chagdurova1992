@@ -1,0 +1,8 @@
+/* * {
+    margin: 0;
+} */
+
+.page__box {
+    max-width: 1110px;
+    margin: 0 auto;
+}
