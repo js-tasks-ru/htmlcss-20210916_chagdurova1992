@@ -1,8 +1,8 @@
 .page {
-    height: 1000px;
+    height: 500px;
 }
 
-.heading{
+.page__heading{
     padding-left: 20px;
 }
 
