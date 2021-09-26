@@ -28,7 +28,7 @@
 }
 
 .button_secondary:hover:enabled {
-    background-color: #5028C6;
+    background-color: var(--purple2);
 }
 
 .button_alternate {
