@@ -1,6 +1,6 @@
 .header {
-    background-color: white;
-    height: 237px;
+    background-color: var(--white);
+    /* height: 237px; */
 }
 
 .header__title {

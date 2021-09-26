@@ -1,6 +1,6 @@
 .preview {    
-    background-color: #F9FAFC;
-    height: 1036px;
+    background-color: var(--white-2);
+    /* height: 1036px; */
 }
 
 .preview__text {

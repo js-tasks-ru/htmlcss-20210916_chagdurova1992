@@ -1,7 +1,5 @@
 .footer {
-    background-color: white;
-    height: 384px;
-
+    background-color:var(--white);
 }
 
 .footer__content {
