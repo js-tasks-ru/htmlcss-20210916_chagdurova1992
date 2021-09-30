@@ -2,3 +2,17 @@
     max-width: 1110px;
     margin: 0 auto;
 }
+
+.page {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 67px;
+    
+}
+
+.page__preview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}

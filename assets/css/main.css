@@ -4,6 +4,7 @@
     --white: #ffffff;
     --white-2: #F9FAFC;
     --black: #212429;
+    --black2: rgba(33, 36, 41, 0.05);
     --pink: #F784AD;
     --purple: #7048E8;
     --purple2: #5028C6;
@@ -35,4 +36,5 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--white-2);
 }
