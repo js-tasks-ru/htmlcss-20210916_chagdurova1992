@@ -14,31 +14,31 @@
     justify-content: space-between;
 }
 
-.header__left {
+.histogram__header-total {
     display: grid;
     grid-template-rows: repeat(2, 50%);
 }
 
-.header__name {
+.histogram__title {
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 6px;
 }
 
-.header__number {
+.histogram__amount {
     display: flex;
     align-items: flex-end;
     font-size: 20px;
     font-weight: 400;
 }
 
-.header__right {
+.histogram__header-a {
     display: flex;
     align-items: center;
     padding-bottom: 15px;
 }
 
-.header__a {
+.histogram__link {
     color: var(--blue);
     text-decoration: none;
 }
@@ -51,7 +51,7 @@
     padding-top: 39px;
 }
 
-.graph__column {
+.histogram__graph-column {
     display: flex;
     flex: 1 1 auto;
     background-color: var(--blue);
@@ -59,42 +59,42 @@
     font-size: 0;
 }
 
-.column_height-10 {
+.histogram__graph-column_10 {
     height: 10%;
 }
 
-.column_height-20 {
+.histogram__graph-column_20 {
     height: 20%;
 }
 
-.column_height-30 {
+.histogram__graph-column_30 {
     height: 30%;
 }
 
-.column_height-40 {
+.histogram__graph-column_40 {
     height: 40%;
 }
 
-.column_height-50 {
+.histogram__graph-column_50 {
     height: 50%;
 }
 
-.column_height-60 {
+.histogram__graph-column_60 {
     height: 60%;
 }
 
-.column_height-70 {
+.histogram__graph-column_70 {
     height: 70%;
 }
 
-.column_height-80 {
+.histogram__graph-column_80 {
     height: 80%;
 }
 
-.column_height-90 {
+.histogram__graph-column_90 {
     height: 90%;
 }
 
-.column_height-100 {
+.histogram__graph-column_100 {
     height: 100%;
 }
