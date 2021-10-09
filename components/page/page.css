@@ -1,18 +1,19 @@
-.page__box {
-    max-width: 1110px;
-    margin: 0 auto;
+.page {
+    width: 100%;
+    min-height: 100%;
 }
 
-.page {
+.page__box {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+}
+
+.page-main {
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-row-gap: 67px;
     
-}
-
-.page__preview {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
 }
