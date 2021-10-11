@@ -1,0 +1,36 @@
+.tooltip-page {
+    text-align: center;
+}
+
+.tooltip {
+    display: inline-block;
+    position: relative;
+}
+
+.tooltip__trigger {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.tooltip__bubble {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 8px);
+    padding: 20px;
+    background: var(--blue);
+    color: var(--white);
+}
+
+.tooltip__bubble:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    border: 14px solid var(--blue);
+}
+
+.tooltip__trigger:hover ~ .tooltip__bubble {
+    display: block;
+}
