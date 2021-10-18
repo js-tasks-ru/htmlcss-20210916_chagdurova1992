@@ -23,6 +23,7 @@
     --grey-7: #E3E7EA;
     --grey-8: #90A0B7;
     --grey-9: #C4C4C4;
+    --grey-10: rgba(196, 196, 196, 0.5);
 
     --error: var(--red);
     --success: var(--blue);
